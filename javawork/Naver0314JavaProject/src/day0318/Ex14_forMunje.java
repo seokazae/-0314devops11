@@ -2,11 +2,10 @@ package day0318;
 
 import java.util.Scanner;
 
-public class Ex14_forMnje {
+public class Ex14_forMunje {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		/* 5개의 점수(score)를 입력하면 갯수(count)와 합계(sum) 출력하기
 		 * (단, 1~100 아닐 경우는 갯수에서 제외하고 합계에서도 제외하기-continue 사용)
 		 * 
@@ -23,6 +22,19 @@ public class Ex14_forMnje {
 		 * 
 		 */
 		Scanner sc= new Scanner(System.in);
+		
+		System.out.println("점수는?");
+		int n1 = sc.nextInt();
+		System.out.println("점수는?");
+		int n2 = sc.nextInt();
+		System.out.println("점수는?");
+		int n3 = sc.nextInt();
+		System.out.println("점수는?");
+		int n4 = sc.nextInt();
+		System.out.println("점수는?");
+		int n5 = sc.nextInt();
+		
+			
+	}
 	}
 
-}
