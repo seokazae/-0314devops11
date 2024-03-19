@@ -18,6 +18,15 @@ public class Ex1_Munje {
 	
     Scanner sc= new Scanner(System.in);
     
+	/*
+	 * string answer = score >= 90 ? "A" : 
+	 * score >= 80 ? "B" : score >= 70 ? "C" :
+	 * score >= 60 ? "D" : "F"
+	 * 
+	 * system.out.println(answer)
+	 */
+
+    
     System.out.println("점수를 입력하세요");
     int score = sc.nextInt();
     //if문을 이용해서 점수를 잘못 입력했을 경우 메서도 종료를 하자

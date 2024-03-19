@@ -15,6 +15,8 @@ public class Ex11_for {
 		}
 		System.out.println("합계:"+sum);
 		
+		sum=0;
+		
 		Scanner sc=new Scanner(System.in);
 		int x,y;
 		System.out.println("합계를 구할 시작값?");
@@ -26,8 +28,6 @@ public class Ex11_for {
 		{
 			sum+=i;
 		}
-		System.out.printf("%d~%d까지의 합 : %d\n",x,y,sum);	
-		
+		System.out.printf("%d~%d까지의 합 : %d",x,y,sum);
 	}
-
 }

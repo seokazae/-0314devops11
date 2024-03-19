@@ -22,19 +22,22 @@ public class Ex14_forMunje {
 		 * 
 		 */
 		Scanner sc= new Scanner(System.in);
+		int count=0,sum=0,score;
 		
-		System.out.println("점수는?");
-		int n1 = sc.nextInt();
-		System.out.println("점수는?");
-		int n2 = sc.nextInt();
-		System.out.println("점수는?");
-		int n3 = sc.nextInt();
-		System.out.println("점수는?");
-		int n4 = sc.nextInt();
-		System.out.println("점수는?");
-		int n5 = sc.nextInt();
+		for(int i=1;i<=5;i++)
+		{
+			System.out.println("점수 입력 "+i);
+			score=sc.nextInt();
+			if(score<1 || score>100)
+					continue;//i++로 이동
+					
+			count++;
+			sum+=score;
+		}
 		
-			
+		System.out.println("입력한 점수 갯수 : "+count);
+		System.out.println("총합계 : "+sum);
+		
 	}
 	}
 
