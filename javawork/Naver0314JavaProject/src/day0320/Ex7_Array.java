@@ -44,5 +44,4 @@ public class Ex7_Array {
 		//pcnt += date[i] > 0? : 1 : 0
 		
 	}
-
 }
