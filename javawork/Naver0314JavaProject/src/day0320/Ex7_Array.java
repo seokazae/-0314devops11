@@ -43,5 +43,6 @@ public class Ex7_Array {
 		//연산자로 하는법
 		//pcnt += date[i] > 0? : 1 : 0
 		
+		System.out.println(2.5);
 	}
 }

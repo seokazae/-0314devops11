@@ -44,6 +44,7 @@ public class Ex8_String {
 		System.out.println("apple".compareTo("append"));//'l','e' : 7(양수:첫문자열이 더 크다), 첫문자열이 작을 경우 음수가 나온다
 		System.out.println("apple".compareTo("banana"));//'a','b' : -1 (음수:뒤문자열이 더 크다)
 		System.out.println("apple".compareTo("apple"));//0(같을 경우)
+		System.out.println("computer".compareTo("apple")); //첫문자열이 더 클경우 2 
 		
 		//반복
 		System.out.println(str2.repeat(3));
